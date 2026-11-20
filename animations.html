@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations</title>
+    <style>
+        .container{
+            width: 500px;
+            height: 500px;
+            background-color: orange;
+            animation: box 1s linear 0s 5000;
+            border-radius: 100%;
+        }
+
+        @keyframes box{
+            0% {background-color: violet;}
+            25% {background-color: indigo;}
+            50% {background-color: blue;}
+            75% {background-color: green}
+            100% {background-color: yellow;}
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+    </div>
+</body>
+</html>
